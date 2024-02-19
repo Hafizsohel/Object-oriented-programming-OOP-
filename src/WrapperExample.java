@@ -21,10 +21,13 @@ public class WrapperExample {
         //when a non primitive is final, you cannot reassign it.
        // hafiz=new A("New Object");
 
-        A obj;
-        for(int i=0; i < 1000; i++){
+        A obj=new A("Rahfhkahofa");
+        System.out.println(obj.toString());
+
+
+        /*for(int i=0; i < 1000; i++){
         obj= new A("Random name");
-        }
+        }*/
 
     }
     static void swap(Integer a, Integer b){
