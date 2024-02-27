@@ -50,6 +50,7 @@ public class ObjectDemo {
         if (obj.equals(obj2)){
             System.out.println("obj is equal to obj2");
         }
-        System.out.println(obj.getClass().getName());
+        System.out.println(obj.getClass().getClass());
+
     }
 }
