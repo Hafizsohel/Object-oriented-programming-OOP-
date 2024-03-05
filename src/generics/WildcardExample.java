@@ -14,7 +14,6 @@ public class WildcardExample<T extends Number> {
     }
 
     public void getList(List<? extends Number>list){
-
     }
 
     public void add(T num) {
