@@ -10,7 +10,7 @@ public class LambdaFunctions {
             arr.add(i+1);
         }
 
-       // arr.forEach((item) -> System.out.println(item*2));
+        arr.forEach((item) -> System.out.println(+item*2));
 
         Consumer<Integer> fun=(item) -> System.out.println(item*2);
         arr.forEach(fun);
@@ -25,7 +25,7 @@ public class LambdaFunctions {
         System.out.println("Sub: "+calculator.operate(5,2, sub));
 
     }
-    /*int sum(int a, int b){
+   /* int sum(int a, int b){
         return a+b;
     }*/
 
